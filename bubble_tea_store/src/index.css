@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  #root{
+    display: grid;
+    grid-template-rows: 5vh 1fr;
+    background-color: #ECECEC;
+    height: 100vh;
+    width: 100vw;
+    padding: 2%;
+    box-sizing: border-box;
+  }
+
+  nav{
+    display: flex;
+    gap: 2vw;
+    background-color: #FF8B13;
+    justify-content: center;
+    align-items: center;
+   
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    font-size: 14;
+   
+  }
+
+  #cart_button{
+    height: 5vh;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+   background-color: #F273E6;
+    
+  }
+
+  #cart_button img{
+    height: 2vh;
+    width: 2vh;
+  }
+
+  #ShoppingCart{
+
+  }
+
+  #ShoppingCart h1{
+
+
+  }
+
+  #product_page{
+    
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
