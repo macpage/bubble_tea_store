@@ -17,7 +17,7 @@
   nav{
     display: flex;
     gap: 2vw;
-    background-color: #FF8B13;
+    background-color: #39B5E0;
     justify-content: center;
     align-items: center;
    
@@ -35,13 +35,13 @@
     align-items: center;
     justify-content: center;
     border: none;
-   background-color: #F273E6;
+  background-color: transparent;
     
   }
 
   #cart_button img{
-    height: 2vh;
-    width: 2vh;
+    height: 3vh;
+    width: 3vh;
   }
 
   #ShoppingCart{
@@ -58,4 +58,39 @@
     background-color: white;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 8vw;
+    row-gap: 5vh;
+    padding: 2vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+
+  .product{
+    background-color: #ECECEC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .product img{
+    width: 70%;
+    height: 70%;
+    background-color: white;
+  }
+
+  .product div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #FF78F0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+   height: 30%;
   }
