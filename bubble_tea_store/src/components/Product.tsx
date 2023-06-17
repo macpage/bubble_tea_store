@@ -1,10 +1,12 @@
 function Product(props) {
   return (
     <div className="product">
-      {props.img}
-      {props.title}
-      {props.price}
-      {props.button}
+      <img></img>
+      <div>
+        {props.title}
+        {props.price}
+        <button>Add</button>
+      </div>
     </div>
   );
 }
