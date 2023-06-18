@@ -1,10 +1,14 @@
-import cart from '/assets/cart.png';
+import { NavLink } from 'react-router-dom';
 function Navbar() {
   return (
     <nav>
-      <h1>Home</h1>
-      <h1>About</h1>
-      <button id="cart_button">cart</button>
+      <NavLink to="/Home" className={'navlink'}>
+        Home
+      </NavLink>
+      <NavLink to="/About" className={'navlink'}>
+        About
+      </NavLink>
+      <button id="login">Login</button>
     </nav>
   );
 }
