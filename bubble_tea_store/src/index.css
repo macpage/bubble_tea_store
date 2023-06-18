@@ -57,8 +57,7 @@ nav{
 #Product img{
   height: 50vh;
   width: 50vh;
-  background-color: #393646;
-  border-radius: 20px;
+
  grid-column: 1/3;
 }
 
