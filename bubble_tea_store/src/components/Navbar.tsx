@@ -8,7 +8,9 @@ function Navbar() {
       <NavLink to="/About" className={'navlink'}>
         About
       </NavLink>
-      <button id="login">Login</button>
+      <NavLink to="/Login">
+        <button id="login">Login</button>
+      </NavLink>
     </nav>
   );
 }

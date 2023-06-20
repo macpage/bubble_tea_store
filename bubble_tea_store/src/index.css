@@ -98,6 +98,25 @@ nav{
   row-gap: 5vh;
 }
 
+#Login{
+  display: grid;
+  grid-template-rows: 1fr 80vh 1fr;
+  row-gap: 5vh; 
+}
+
+#LoginPage{
+  background-color: #4F4557;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#LoginPage form{
+  display: flex;
+  flex-direction: column;
+}
+
 #Page{
   background-color: #4F4557;
   display: flex;
